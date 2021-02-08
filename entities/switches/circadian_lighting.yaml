@@ -1,2 +1,3 @@
 platform: circadian_lighting
 name: circadian_lighting
+max_brightness: 50
