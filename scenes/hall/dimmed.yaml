@@ -2,7 +2,7 @@ id: hall_dimmed
 name: hall_dimmed
 entities:
   light.hall_ceiling:
-    input_boolean.hall_autodimmed:
-      state: 'on'
     state: true
     brightness: 1
+  input_boolean.hall_autodimmed:
+    state: 'on'
