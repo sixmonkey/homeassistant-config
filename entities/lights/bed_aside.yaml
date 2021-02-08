@@ -1,0 +1,5 @@
+platform: group
+name: bed_aside
+entities:
+  - light.bed_aside_1
+  - light.bed_aside_2

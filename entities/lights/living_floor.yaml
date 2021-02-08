@@ -1,0 +1,6 @@
+platform: group
+name: living_floor
+entities:
+  - light.living_floor_1
+  - light.living_floor_2
+  - light.living_spot_1

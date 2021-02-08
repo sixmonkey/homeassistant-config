@@ -1,0 +1,5 @@
+id: 'covers_down'
+name: 'Rollos geschlossen'
+entities:
+  cover.bed_cover_1:
+    state: closed

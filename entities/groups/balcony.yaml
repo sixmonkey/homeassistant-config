@@ -1,0 +1,9 @@
+balcony:
+  name: Balkon
+  icon: mdi:sprout
+  entities:
+    - scene.balcony_dimmed
+    - scene.balcony_lit
+    - scene.balcony_bright
+    - light.balcony_wall_1
+    - input_boolean.balcony_autodimmed

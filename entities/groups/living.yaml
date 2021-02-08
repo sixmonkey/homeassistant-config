@@ -1,0 +1,13 @@
+living:
+  name: Wohnzimmer
+  icon: mdi:sofa
+  entities:
+    - scene.living_dimmed
+    - scene.living_lit
+    - scene.living_bright
+    - light.living_ceiling_1
+    - light.living_ceiling_2
+    - light.living_aside
+    - light.living_floor
+    - input_boolean.living_autodimmed
+    - sensor.living_lightlevel

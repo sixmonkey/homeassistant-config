@@ -1,0 +1,10 @@
+id: girl_bright
+name: girl_bright
+entities:
+  input_boolean.girl_autodimmed:
+    state: 'off'
+  light.girl_ceiling_1:
+    state: true
+    brightness: 255
+  light.girl_wall_1: false
+  light.girl_aside_1: false

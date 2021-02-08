@@ -1,0 +1,26 @@
+- id: wake_me_up
+  alias: Aufwecken
+  description: ''
+  trigger:
+    platform: template
+    value_template: '{{ states(''sensor.time'')  == (((states.input_datetime.alarm_workdays.attributes.timestamp
+      | int) - 900 ) | int | timestamp_custom(''%H:%M'', False)) }}'
+  condition:
+  - condition: state
+    entity_id: binary_sensor.workday_sensor
+    state: 'on'
+  action:
+  - scene: scene.goodmorning_1
+  - delay: 00:15:00
+  - scene: scene.goodmorning_2
+
+- id: sensor_values_to_file
+  alias: "Spülmaschine: Verbrauch auslesen"
+  initial_state: 'off'
+  trigger:
+    - platform: time_pattern
+      seconds: "/15"
+  action:
+    - service: notify.filenotify
+      data_template:
+        message: "{{ state_attr('switch.kitchen_outlet_4','current_power_w') | float }}"

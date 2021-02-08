@@ -1,0 +1,33 @@
+# Generic ignores
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.pyc
+._*
+__pycache__
+__*
+
+# Directory (contents) ignores
+/.cloud
+/.storage
+/deps
+/tts
+/appdaemon
+
+# Specific file ignores
+secrets.yaml
+.google.token
+aircast.xml
+google_calendars.yaml
+known_devices.yaml
+
+# Ignore files created by IDE's
+.vscode
+.theia
+.Trash*
+.DS_Store
+.idea
+
+# Specific keeps
+!.gitkeep

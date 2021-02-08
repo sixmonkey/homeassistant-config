@@ -1,0 +1,43 @@
+# scenes
+"scene.*_dimmed":
+  icon: mdi:brightness-4
+  friendly_name: gemütlich
+"scene.*_lit":
+  icon: mdi:brightness-6
+  friendly_name: erleuchtet
+"scene.*_bright":
+  icon: mdi:brightness-7
+  friendly_name: hell
+
+# lights
+"light.*_ceiling*":
+  friendly_name: Decke
+  icon: mdi:ceiling-light
+"light.*_floor*":
+  friendly_name: Stehlampe
+  icon: mdi:floor-lamp
+"light.*_wall*":
+  friendly_name: Wandlampe
+"light.*_aside*":
+  icon: mdi:lamp
+
+# covers
+"cover.*_cover*":
+  friendly_name: Jalousie
+
+# sensors
+"binary_sensor.*_motion*":
+  friendly_name: Bewegungsmelder
+"binary_sensor.*_motion_*":
+  hidden: true
+"sensor.*_battery_level*":
+  friendly_name: Batterie
+
+# input booleans
+"input_boolean.*_autodimmed":
+  icon: mdi:theme-light-dark
+  friendly_name: Automatisch gedimmt
+
+# media_players
+"media_player.snapcast_client_*":
+  hidden: true

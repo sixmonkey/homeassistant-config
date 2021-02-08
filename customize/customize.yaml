@@ -1,0 +1,69 @@
+# lights
+light.bed_aside_1:
+  friendly_name: Bens Nachttischlampe
+
+light.bed_aside_2:
+  friendly_name: Maries Nachttischlampe
+
+light.living_aside:
+  friendly_name: Kugeln
+
+light.living_floor:
+  friendly_name: Stehlampen
+
+light.living_aside_1:
+  friendly_name: Kugel 1
+
+light.living_aside_2:
+  friendly_name: Kugel 2
+
+light.living_aside_3:
+  friendly_name: Kugel 3
+
+light.living_ceiling_1:
+  friendly_name: Esstisch
+
+light.living_ceiling_2:
+  friendly_name: Sofa
+
+light.boy_wall_1:
+  friendly_name: Wickelkommode
+
+light.girl_aside_1:
+  friendly_name: Nachttischlampe
+
+light.boy:
+  friendly_name: !secret name_boy
+light.girl:
+  friendly_name: !secret name_girl
+
+# groups
+group.auto_dimmed:
+  hidden: true
+
+# sensors
+sensor.outside_illumnance_raw:
+  hidden: true
+sensor.outside_illumnance:
+  friendly_name: Helligkeit
+
+# binary_sensors
+binary_sensor.hall_motion_2:
+  hidden: true
+binary_sensor.hall_motion_3:
+  hidden: true
+
+# device trackers
+device_tracker.ben_key:
+  hidden: true
+device_tracker.marie_key:
+  hidden: true
+device_tracker.ben_iphone:
+  hidden: true
+device_tracker.maries_iphone:
+  hidden: true
+
+# input_booleans
+input_boolean.cuddle_mode:
+  icon: mdi:flashlight-off
+  friendly_name: Intim

@@ -1,0 +1,13 @@
+platform: template
+lights:
+  living_spot_1:
+    friendly_name: "Buffet"
+    value_template: "{{ states.switch.living_outlet_1.state }}"
+    turn_on:
+      service: switch.turn_on
+      data:
+        entity_id: switch.living_outlet_1
+    turn_off:
+      service: switch.turn_off
+      data:
+        entity_id: switch.living_outlet_1

@@ -1,0 +1,15 @@
+auto_dimmed:
+    name: Automatisch gedimmt
+    entities:
+      - light.living_ceiling_2
+      - light.living_aside
+      - light.living_floor
+      - light.hall_ceiling_1
+      - light.hall_ceiling_2
+      - light.kitchen_ceiling_1
+      - light.bed_aside_1
+      - light.bed_aside_2
+      - light.boy_wall_1
+      - light.boy_ceiling_1
+      - light.girl_aside_1
+      - light.girl_ceiling_1

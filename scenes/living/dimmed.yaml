@@ -1,0 +1,19 @@
+id: living_dimmed
+name: living_dimmed
+entities:
+  input_boolean.living_autodimmed:
+    state: 'on'
+  light.living_aside:
+    state: 'on'
+    brightness: 1
+  light.living_ceiling_1:
+    max_mireds: 500
+    min_mireds: 153
+    state: 'off'
+  light.living_ceiling_2:
+    max_mireds: 500
+    min_mireds: 153
+    state: 'off'
+  light.living_floor:
+    state: 'on'
+    brightness: 1

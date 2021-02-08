@@ -1,0 +1,11 @@
+boy:
+  name: !secret name_boy
+  icon: mdi:baby-face-outline
+  entities:
+    - scene.boy_dimmed
+    - scene.boy_lit
+    - scene.boy_bright
+    - light.boy_ceiling_1
+    - light.boy_wall_1
+    - light.boy_wall_2
+    - input_boolean.boy_autodimmed

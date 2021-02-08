@@ -1,0 +1,13 @@
+id: boy_bright
+name: boy_bright
+entities:
+  input_boolean.boy_autodimmed:
+    state: 'off'
+  light.boy_ceiling_1:
+    state: true
+    brightness: 255
+  light.boy_wall_1:
+    state: true
+    brightness: 255
+    color_temp: 250
+  light.boy_wall_2: true

@@ -1,0 +1,14 @@
+platform: template
+sensors:
+  kitchen_motion:
+    friendly_name: "Bewegungsmelder Küche"
+    device_class: motion
+    value_template: >-
+      {{ is_state('binary_sensor.kitchen_motion_1', 'on') }}
+    attribute_templates:
+      dark: >
+        {% if state_attr('binary_sensor.kitchen_motion_1', 'dark') == None %}
+          false
+        {% else %}
+          {{ state_attr('binary_sensor.kitchen_motion_1', 'dark')|to_json }}
+        {% endif %}

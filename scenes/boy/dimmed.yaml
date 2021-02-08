@@ -1,0 +1,8 @@
+id: boy_dimmed
+name: boy_dimmed
+entities:
+  input_boolean.boy_autodimmed:
+    state: 'on'
+  light.boy_ceiling_1: false
+  light.boy_wall_1: false
+  light.boy_wall_2: true

@@ -1,0 +1,19 @@
+id: living_lit
+name: living_lit
+entities:
+  input_boolean.living_autodimmed:
+    state: 'on'
+  light.living_aside:
+    brightness: 1
+    state: 'on'
+  light.living_ceiling_1:
+    brightness: 200
+    color_temp: 454
+    state: 'on'
+  light.living_ceiling_2:
+    brightness: 1
+    color_temp: 454
+    state: 'on'
+  light.living_floor:
+    brightness: 1
+    state: 'on'

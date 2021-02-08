@@ -1,0 +1,11 @@
+kitchen:
+  name: Küche
+  icon: mdi:silverware-variant
+  entities:
+    - scene.kitchen_dimmed
+    - scene.kitchen_lit
+    - scene.kitchen_bright
+    - light.kitchen_ceiling_1
+    - light.kitchen_spot_1
+    - input_boolean.kitchen_autodimmed
+    - sensor.kitchen_lightlevel

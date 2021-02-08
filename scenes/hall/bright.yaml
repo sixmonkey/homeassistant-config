@@ -1,0 +1,8 @@
+id: hall_bright
+name: hall_bright
+entities:
+  input_boolean.hall_autodimmed:
+    state: 'off'
+  light.hall_ceiling:
+    state: true
+    brightness: 255

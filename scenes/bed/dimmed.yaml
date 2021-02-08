@@ -1,0 +1,15 @@
+id: bed_dimmed
+name: bed_dimmed
+entities:
+  input_boolean.bed_autodimmed:
+    state: 'on'
+  cover.bed_cover_1:
+    state: closed
+    current_position: 28
+  light.bed_aside: false
+  light.bed_ceiling_1: false
+  light.bed_wall_1:
+    brightness: 1
+    max_mireds: 500
+    min_mireds: 153
+    state: 'on'

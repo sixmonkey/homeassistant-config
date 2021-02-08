@@ -1,0 +1,5 @@
+id: goodmorning_2
+name: goodmorning_2
+entities:
+  cover.bed_cover_1:
+    state: open

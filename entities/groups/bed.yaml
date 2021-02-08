@@ -1,0 +1,13 @@
+bed:
+  name: Schlafzimmer
+  icon: mdi:hotel
+  entities:
+    - scene.bed_dimmed
+    - scene.bed_lit
+    - scene.bed_bright
+    - light.bed_ceiling_1
+    - light.bed_aside
+    - light.bed_wall_1
+    - cover.bed_cover_1
+    - input_boolean.bed_autodimmed
+    - sensor.bed_lightlevel

@@ -1,0 +1,7 @@
+platform: group
+name: living_aside
+entities:
+  - light.living_aside_1
+  - light.living_aside_2
+  - light.living_aside_3
+  - light.living_aside_4

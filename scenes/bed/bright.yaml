@@ -1,0 +1,25 @@
+id: bed_bright
+name: bed_bright
+entities:
+  input_boolean.bed_autodimmed:
+    state: 'off'
+  cover.bed_cover_1:
+    state: closed
+  light.bed_ceiling_1:
+    state: true
+    brightness: 255
+    xy_color:
+      - 0.33
+      - 0.66
+  light.bed_aside:
+    state: true
+    brightness: 255
+    xy_color:
+      - 0.33
+      - 0.66
+  light.bed_wall_1:
+    state: true
+    brightness: 255
+    xy_color:
+      - 0.33
+      - 0.66

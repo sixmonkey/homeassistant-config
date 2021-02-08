@@ -1,0 +1,4 @@
+platform: workday
+country: DE
+province: HE
+excludes: [sat, sun, holiday]

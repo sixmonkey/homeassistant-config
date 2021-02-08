@@ -1,0 +1,8 @@
+id: balcony_bright
+name: balcony_bright
+entities:
+  input_boolean.balcony_autodimmed:
+    state: 'off'
+  light.balcony_wall_1:
+    state: true
+    brightness: 255

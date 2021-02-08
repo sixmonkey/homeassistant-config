@@ -1,0 +1,13 @@
+platform: template
+lights:
+  girl_wall_1:
+    friendly_name: "Wandlampe"
+    value_template: "{{ states.switch.girl_outlet_1.state }}"
+    turn_on:
+      service: switch.turn_on
+      data:
+        entity_id: switch.girl_outlet_1
+    turn_off:
+      service: switch.turn_off
+      data:
+        entity_id: switch.girl_outlet_1
