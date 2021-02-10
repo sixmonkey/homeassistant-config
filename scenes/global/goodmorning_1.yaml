@@ -2,12 +2,12 @@ id: goodmorning_1
 name: goodmorning_1
 entities:
   input_boolean.bed_autodimmed:
-    state: 'off'
-  input_boolean.wake_up:
-    state: 'on'
+    state: "off"
+  input_boolean.wakeup:
+    state: "on"
   light.bed_aside_1:
     brightness: 1
-    state: 'on'
+    state: "on"
   light.bed_aside_2:
     brightness: 1
-    state: 'on'
+    state: "on"
