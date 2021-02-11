@@ -1,0 +1,22 @@
+platform: template
+sensors:
+  kitchen_washer_amps:
+    friendly_name_template: "{{ state_attr('switch.kitchen_outlet_4','friendly_name') }} Current"
+    value_template: "{{ state_attr('switch.kitchen_outlet_4','current_a') | float }}"
+    unit_of_measurement: 'A'
+  kitchen_washer_watts:
+    friendly_name_template: "{{ state_attr('switch.kitchen_outlet_4','friendly_name') }} Current Consumption"
+    value_template: "{{ state_attr('switch.kitchen_outlet_4','current_power_w') | float }}"
+    unit_of_measurement: 'W'
+  kitchen_washer_total_kwh:
+    friendly_name_template: "{{ state_attr('switch.kitchen_outlet_4','friendly_name') }} Total Consumption"
+    value_template: "{{ state_attr('switch.kitchen_outlet_4','total_energy_kwh') | float }}"
+    unit_of_measurement: 'kWh'
+  kitchen_washer_volts:
+    friendly_name_template: "{{ state_attr('switch.kitchen_outlet_4','friendly_name') }} Voltage"
+    value_template: "{{ state_attr('switch.kitchen_outlet_4','voltage') | float }}"
+    unit_of_measurement: 'V'
+  kitchen_washer_today_kwh:
+    friendly_name_template: "{{ state_attr('switch.kitchen_outlet_4','friendly_name') }} Today's Consumption"
+    value_template: "{{ state_attr('switch.kitchen_outlet_4','today_energy_kwh') | float }}"
+    unit_of_measurement: 'kWh'
