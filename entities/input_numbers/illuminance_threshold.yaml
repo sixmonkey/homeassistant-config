@@ -1,0 +1,7 @@
+name: Zielbeleuchtungsstärke
+min: 100
+max: 10000
+step: 1
+mode: box
+unit_of_measurement: lx
+icon: mdi:white-balance-sunny
