@@ -1,7 +1,4 @@
 # lights
-group.all_lights.default:
-  transition: 60
-
 light.bed_aside_1:
   friendly_name: Bens Nachttischlampe
 
