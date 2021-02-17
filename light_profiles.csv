@@ -1,4 +1,4 @@
-id,x,y,brightness
-dimmed,0.5119,0.4147,1
+dimmed,0.1522,0.0216,1,1
 lit,0.5119,0.4147,200
-bright,0.4448,0.4066,240
+bright,0.546,0.389,240
+group.all_lights.default,0.1522,0.0216,1,3
