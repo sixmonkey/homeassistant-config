@@ -37,10 +37,6 @@ light.boy:
 light.girl:
   friendly_name: !secret name_girl
 
-# groups
-group.auto_dimmed:
-  hidden: true
-
 # sensors
 sensor.outside_illumnance_raw:
   hidden: true
