@@ -8,4 +8,3 @@ girl:
     - light.girl_ceiling_1
     - light.girl_wall_1
     - light.girl_aside_1
-    - input_boolean.girl_autodimmed

@@ -8,4 +8,3 @@ boy:
     - light.boy_ceiling_1
     - light.boy_wall_1
     - light.boy_wall_2
-    - input_boolean.boy_autodimmed

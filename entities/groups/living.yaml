@@ -9,5 +9,4 @@ living:
     - light.living_ceiling_2
     - light.living_aside
     - light.living_floor
-    - input_boolean.living_autodimmed
     - sensor.living_lightlevel

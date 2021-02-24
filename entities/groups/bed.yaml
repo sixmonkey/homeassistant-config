@@ -9,5 +9,4 @@ bed:
     - light.bed_aside
     - light.bed_wall_1
     - cover.bed_cover_1
-    - input_boolean.bed_autodimmed
     - sensor.bed_lightlevel

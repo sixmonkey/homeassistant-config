@@ -7,5 +7,4 @@ kitchen:
     - scene.kitchen_bright
     - light.kitchen_ceiling_1
     - light.kitchen_spot_1
-    - input_boolean.kitchen_autodimmed
     - sensor.kitchen_lightlevel

@@ -6,4 +6,3 @@ hall:
     - scene.hall_lit
     - scene.hall_bright
     - light.hall_ceiling
-    - input_boolean.hall_autodimmed
