@@ -14,3 +14,27 @@
   - delay: 00:15:00
   - scene: scene.goodmorning_2
   mode: single
+- id: '1613739272431'
+  alias: Nachtmodus aktivieren
+  description: ''
+  trigger:
+  - platform: time
+    at: input_datetime.nighttime
+  condition: []
+  action:
+  - service: input_boolean.turn_on
+    data: {}
+    entity_id: input_boolean.nightmode
+  mode: single
+- id: '1613739324187'
+  alias: Tagmodus aktivieren
+  description: ''
+  trigger:
+  - platform: time
+    at: input_datetime.daytime
+  condition: []
+  action:
+  - service: input_boolean.turn_off
+    data: {}
+    entity_id: input_boolean.nightmode
+  mode: single
